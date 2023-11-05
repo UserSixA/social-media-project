@@ -1,0 +1,181 @@
+@import 'variables.css';
+
+/* Sidebar Style File */
+.side-bar {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: var(--theme-color);
+  opacity: 1;
+  flex-direction: column;
+  width: 220px;
+  top: 50px;
+  padding: 4px 6px 4px 0px;
+  overflow-y: auto;
+  height: calc(100vh - 50px);
+  position: fixed;
+}
+
+
+
+/* Sidebar Sections */
+.types-of-content-section,
+.personal-content-section,
+.interest-content-creator-section,
+.interest-cave-space-section,
+.options-section,
+.imprint-section {
+  border-bottom: 1px solid rgb(79, 79, 79);
+  background-color: var(--theme-color);
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* Sidebar Section Header Containers */
+.types-of-content-section-header-container,
+.personal-content-section-header-container,
+.interest-content-creator-section-header-container,
+.interest-cave-space-section-header-container,
+.options-section-header-container,
+.imprint-section-header-container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 15px;
+}
+
+
+
+/* Sidebar Section Headers */
+.types-of-content-section-header,
+.personal-content-section-header,
+.interest-content-creator-section-header,
+.interest-cave-space-section-header,
+.options-section-header,
+.imprint-section-header {
+  color: var(--in-theme-color);
+  font-family: Arial;
+  font-size: 23px;
+  padding-left: 16px;
+}
+
+
+
+/* Section Tabs */
+.main-content-tab,
+.secondary-content-tab,
+.my-account-tab,
+.my-content-tab,
+.liked-content-tab, 
+.history-tab,
+.followed-content-creator-tab,
+.followed-cave-space-creator-tab,
+.settings-tab,
+.help-tab,
+.send-feedback-tab,
+.imprint- {
+  padding-left: 8px;
+  height: 45px;
+}
+
+
+
+/* Section Tab Buttons */
+.main-content-tab-button,
+.secondary-content-tab-button,
+.my-account-tab-button,
+.my-content-tab-button,
+.liked-content-tab-button,
+.history-tab-button,
+.followed-content-creator-tab-button,
+.followed-cave-space-creator-tab-button,
+.settings-tab-button,
+.help-tab-button,
+.send-feedback-tab-button {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+/* Button Hover */
+.main-content-tab-button:hover,
+.secondary-content-tab-button:hover,
+.my-account-tab-button:hover,
+.my-content-tab-button:hover,
+.liked-content-tab-button:hover,
+.history-tab-button:hover,
+.followed-content-creator-tab-button:hover,
+.followed-cave-space-creator-tab-button:hover,
+.settings-tab-button:hover,
+.help-tab-button:hover,
+.send-feedback-tab-button:hover {
+  background-color: rgb(97, 97, 97);
+}
+
+
+
+/* Button Images */
+.main-content-tab-button-img,
+.secondary-content-tab-button-img,
+.my-account-tab-button-img,
+.my-content-tab-button-img,
+.liked-content-tab-button-img,
+.history-tab-button-img,
+.followed-content-creator-tab-button-img,
+.followed-cave-space-creator-tab-button-img,
+.settings-tab-button-img,
+.help-tab-button-img,
+.send-feedback-tab-button-img {
+  width: 35px;
+  margin: 0px 15px 0px 8px;
+}
+
+
+/* Button Paragraphs */
+.main-content-tab-button-paragraph,
+.secondary-content-tab-button-paragraph,
+.my-account-tab-button-paragraph,
+.my-content-tab-button-paragraph,
+.liked-content-tab-button-paragraph,
+.history-tab-button-paragraph,
+.followed-content-creator-tab-button-paragraph,
+.followed-cave-space-creator-tab-button-paragraph,
+.settings-tab-button-paragraph,
+.help-tab-button-paragraph,
+.send-feedback-tab-button-paragraph {
+  font-family: Arial;
+  color: var(--in-theme-color);
+  font-size: 15px;
+}
+
+
+
+/* Imprint */
+.imprint-section-paragraph-container {
+  height: auto;
+  padding-left: 23px;
+  display: flex;
+  width: auto;
+}
+.imprint-paragraph {
+  color: var(--in-theme-color);
+  font-size: 12px;
+  width: auto;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
+}
+.imprint-paragraph:hover {
+  cursor: pointer;
+}

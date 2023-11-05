@@ -1,0 +1,23 @@
+@import 'variables.css';
+
+body {
+  margin: 0;
+  font-family: Arial;
+  font-size: 16px;
+  background-color: var(--theme-color);
+}
+
+button {
+  border-style: none;
+  background-color: transparent;
+}
+button:hover {
+  cursor: pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: Arial;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
