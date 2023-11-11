@@ -9,7 +9,7 @@
   top: 0;
   left: 0px;
   right: 0px;
-  z-index: 100;
+  z-index: 200;
   padding-right: 10px;
   height: 50px;
 }
@@ -61,8 +61,8 @@
   width: 40px;
 }
 .back-to-home-tab {
-  width: 140px;
-  margin-left: -23px;
+  width: 100px;
+  margin-left: 0px;
 }
 .search-field {
   flex-grow: .7;

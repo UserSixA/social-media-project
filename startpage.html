@@ -15,7 +15,7 @@
     <div class="header">
       <div class="header-left-section">
         <div class="scroll-bar-tab">
-          <button id="scrollBarTabBtn" class="scroll-bar-tab-button">
+          <button id="scrollBarTabBtn" class="scroll-bar-tab-button" onclick="palyASound()">
             <img class="scroll-bar-tab-button-img" src="Icons/Test/hamburger-menu.svg" alt="">
           </button>
         </div>
@@ -210,14 +210,35 @@
 
     <div class="content">
       <div class="background-container">
-        <img class="background-img" src="Background/Cave-V01.png" alt="">
+        <img id="backgroundImg" class="background-img" src="Background/cave-V06.png" alt="">
       </div>
-      <div class="content-element">
+      <div id="contentContainer" class="content-container" style="color: white">
+        <div class="content-element">
+          <img class="content-image" src="content/images/BenImage.webp" alt="">
+        </div>
+        <div class="content-interaction">
+          <div class="rating-section">
+
+          </div>
+          <div class="comment-section">
+
+          </div>
+          <div class="save-section">
+
+          </div>
+          <div class="share-section">
+
+          </div>
+          <div class="report-section">
+
+          </div>
+        </div>
         
       </div>
     </div>
   </main>
 
+  <script src="scripts/handle-general-background.js"></script>
   <script src="scripts/audio-background-noise-handle.js"></script>
 </body>
 </html>
